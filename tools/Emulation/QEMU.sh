@@ -3,12 +3,11 @@
 ## Variables / Constants
 BOXES=/home/deck/.local/share/flatpak/exports/bin/org.gnome.Boxes
 BIN=/usr/bin/flatpak
-URL1=""
-URL2=""
+URL=""
 
 ## Script
 if [[ -f $BOXES ]]; then
-  wget $URL2
+  wget $URL
 else
   echo "Starting Flatpak Install"
   sleep 5
